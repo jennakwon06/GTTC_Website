@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Georgia Tech Tennis Club</title>
@@ -14,6 +9,26 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+    <!--FACEBOOK LOGIN INTEGRATION -->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '416820021841170',
+				xfbml      : true,
+				version    : 'v2.4'
+			});
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -57,6 +72,8 @@
 								<li><a href="#photo_slider">Photos</a></li>
 								<li><a href="#photo_slider">Tournament Schedule</a></li>
 								<li><a href="#contact">Contact</a></li>
+								<li><a href="#login_popup">Member Login</a></li>
+
 							</ul>
 						</nav>
 
