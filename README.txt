@@ -1,2 +1,2 @@
 Website for Georgia Tech Tennis Club! 
-Hosted at www.gatechtennisclub.heroku.com
+Hosted at www.gatechtennisclub.herokuapp.com
